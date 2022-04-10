@@ -11,10 +11,10 @@
     <div class="container-calculadora">
       <div class="calculadora">
         <h1>CALCULADORA</h1>
-        <p id="resultados">aaaasasasas</p>
+        <p id="resultados"></p>
         <table>
           <tr class="btn">
-            <td><button onclick="insert('C')">C</button></td>
+            <td><button onclick="clean('C')">C</button></td>
             <td><button onclick="insert('/')">/</button></td>
             <td><button onclick="insert('*')">*</button></td>
             <td><button onclick="insert('-')">-</button></td>
@@ -37,7 +37,7 @@
             <td><button onclick="insert('2')">2</button></td>
             <td><button onclick="insert('3')">3</button></td>
             <td rowspan="2">
-              <button class="btn-height" onclick="insert('=')">=</button>
+              <button class="btn-height" onclick="calcular('=')">=</button>
             </td>
           </tr>
           <tr class="btn">
@@ -50,4 +50,5 @@
       </div>
     </div>
   </body>
+  <script type="text/javascript" src="JS/calculadora.js"></script>
 </html>
